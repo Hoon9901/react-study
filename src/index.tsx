@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Table from './table';
+import Table from './Study/table';
+import ReUse from './Study/props';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Table />
+    <ReUse />
   </React.StrictMode>,
   document.getElementById('root'),
 );

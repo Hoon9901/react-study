@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import MessageThread from './FuncVSClass/MessageThread';
+import commandClock from './funcType/commandClock';
+import SayLove from './funcType/saylove';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MessageThread />
+    <commandClock />
+    <SayLove />
   </React.StrictMode>,
   document.getElementById('root')
 );

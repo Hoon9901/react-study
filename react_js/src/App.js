@@ -5,6 +5,8 @@ import MyName from './MyName';
 import Counter from './goHooks/Counter'
 import Info from './goHooks/info';
 import ContextSample from './goHooks/ContextSample';
+import Info2 from './goHooks/info2';
+import Hello from './ifrender/hello';
 
 const App = () => {
   const [visible, setVisible] = useState(false);
@@ -16,8 +18,10 @@ const App = () => {
         {visible ? '숨기기' : '보이기'}
       </button>
       <hr />
-      {visible && <Info/>}
-      <ContextSample/>
+      {visible && <Info2/>}
+      <Hello name="박성훈" color = "red" isSpecial/>
+      <Hello color = "pink"/>
+
     </>
   );
 };

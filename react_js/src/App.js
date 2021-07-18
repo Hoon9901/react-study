@@ -7,7 +7,7 @@ import Info from './goHooks/info';
 import ContextSample from './goHooks/ContextSample';
 import Info2 from './goHooks/info2';
 import Hello from './ifrender/hello';
-
+import IterationSample from './recomponent/IterationSample';
 const App = () => {
   const [visible, setVisible] = useState(false);
   return(
@@ -21,7 +21,7 @@ const App = () => {
       {visible && <Info2/>}
       <Hello name="박성훈" color = "red" isSpecial/>
       <Hello color = "pink"/>
-
+      <IterationSample/>
     </>
   );
 };

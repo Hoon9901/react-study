@@ -8,6 +8,8 @@ import ContextSample from './goHooks/ContextSample';
 import Info2 from './goHooks/info2';
 import Hello from './ifrender/hello';
 import IterationSample from './recomponent/IterationSample';
+import EventPractice from './EventStudy/EventPractice';
+
 const App = () => {
   const [visible, setVisible] = useState(false);
   return(
@@ -22,6 +24,7 @@ const App = () => {
       <Hello name="박성훈" color = "red" isSpecial/>
       <Hello color = "pink"/>
       <IterationSample/>
+      <EventPractice />
     </>
   );
 };

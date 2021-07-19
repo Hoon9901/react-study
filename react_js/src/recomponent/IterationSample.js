@@ -33,6 +33,7 @@ const IterationSample = () => {
     };
 
     const nameList = names.map(name => (
+        /* key로 배열의 id를 사용 */
         <li key={name.id} onDoubleClick={() => onRemove(name.id)}>
             {name.text}
         </li>

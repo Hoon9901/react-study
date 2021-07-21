@@ -7,6 +7,7 @@ import Hello from './ifrender/hello';
 import IterationSample from './recomponent/IterationSample';
 import EventPractice from './EventStudy/EventPractice';
 import JoinForm from './goodcomp/JoinForm';
+import Toggle from './goodcomp/propsDrilling';
 
 const App = () => {
     const [visible, setVisible] = useState(false);
@@ -26,9 +27,19 @@ const App = () => {
             {visible && <Info2 />}
             <Hello name="박성훈" color="red" isSpecial />
             <Hello color="pink" />
+            <hr />
             <IterationSample />
+            <hr />
             <EventPractice />
+            <hr />
             <JoinForm />
+            <h1>좋은 컴포넌트 작성하기</h1>
+            <ul>
+                <li>
+                    <h2>React Prop Drilling</h2>
+                    <Toggle />
+                </li>
+            </ul>
         </>
     );
 };

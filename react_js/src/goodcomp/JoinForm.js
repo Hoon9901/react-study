@@ -46,5 +46,4 @@ function JoinForm() {
         </>
     );
 }
-
 export default JoinForm;

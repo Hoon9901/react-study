@@ -1,12 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-
-import hooks from "./hooks";
-
+import Fone from "./one";
 function App() {
   return (
     <div className="App">
-      <hooks />
+      <Fone />
     </div>
   );
 }

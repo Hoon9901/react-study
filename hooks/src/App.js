@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Fone from "./one";
+import Fone from "./hooks/one";
 function App() {
   return (
     <div className="App">
